@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.*;
 @RequestMapping("/api")
 public class DeleteApiController {
 
-    @DeleteMapping("/delete/{userId}")
+    @DeleteMapping("/delete/{userId}")//외않되?
     public void delete(@PathVariable String userId, @RequestParam String account){
 
         System.out.println(userId);
